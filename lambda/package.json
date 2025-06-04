@@ -1,0 +1,9 @@
+{
+  "name": "appsync-lambda-resolver",
+  "version": "1.0.0",
+  "description": "Lambda resolver for AppSync API",
+  "main": "index.js",
+  "dependencies": {
+    "@aws-sdk/client-rds-data": "^3.54.0"
+  }
+}

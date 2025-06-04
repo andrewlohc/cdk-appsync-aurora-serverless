@@ -1,0 +1,28 @@
+{
+  "name": "cdk-appsync-aurora-serverless",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "cdk-appsync-aurora-serverless": "bin/cdk-appsync-aurora-serverless.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "cdk": "cdk",
+    "postinstall": "cd lambda && npm install"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "aws-cdk": "^2.1001.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.4.3",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.181.1",
+    "constructs": "^10.3.0",
+    "source-map-support": "^0.5.21"
+  }
+}
